@@ -221,7 +221,7 @@ app.post('/bfhl', async (req, res) => {
                         });
                     }
 
-                    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+                    const model = genAI.getGenerativeModel({ model: "gemini-2-flash" });
                     const prompt = `Respond in one word only. ${value}`;
                     
                     try {
